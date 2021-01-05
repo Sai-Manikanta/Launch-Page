@@ -118,3 +118,25 @@ nav a:hover {
 .box:hover {
   transform: scale(1.03);
 }
+
+/* feachered-box */
+
+.feachered-box {
+  display: flex;
+  align-items: center;
+  padding: 60px;
+  justify-content: space-between;
+}
+.feachered-box p {
+  color: #071e55;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.feachered-box img {
+  height: 60px;
+  opacity: 0.4;
+  transition: all 300ms;
+}
+.feachered-box img:hover {
+  opacity: 9;
+}
